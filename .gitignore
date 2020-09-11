@@ -79,7 +79,5 @@ yarn-lock.json
 .netlify
 
 # Dist files created during development
-admin/dist/
-admin/schemas/dist/
 dist/
 schemas/dist/

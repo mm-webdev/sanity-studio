@@ -13,7 +13,8 @@
     "help": "sanity help",
     "docs": "sanity docs",
     "manage": "sanity manage",
-    "graphql": "sanity graphql deploy -y --playground"
+    "graphql live": "sanity graphql deploy -y --playground",
+    "graphql dev": "sanity graphql deploy --dataset dev -y --playground"
   },
   "keywords": [
     "sanity"
