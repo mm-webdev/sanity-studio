@@ -37,19 +37,17 @@ export default {
     },
     {
       title: "Navigation Links",
+      description: "These will appear in the order they are displayed, change order to change live order.",
       name: "nav",
       type: "array",
-      of: [{ type: "nav" }],
-      collapsible: true,
-      collapsed: true,
+      of: [{ type: "nav" }]
     },
     {
       title: "Social Network Links",
+      description: "These will appear in the order they are displayed, change order to change live order.",
       name: "socials",
       type: "array",
-      of: [{ type: "socials" }],
-      collapsible: true,
-      collapsed: true,
+      of: [{ type: "socials" }]
     },
     {
       title: "About Page Image",

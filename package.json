@@ -40,7 +40,8 @@
     "sanity-plugin-nyancat-spinner": "^1.0.0"
   },
   "devDependencies": {
-    "@sanity/cli": "^1.150.1"
+    "@sanity/cli": "^1.150.1",
+    "@sanity/client": "^1.150.7"
   },
   "repository": {
     "type": "git",
