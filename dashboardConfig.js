@@ -1,11 +1,9 @@
 export default {
-  widgets: [
-    {
+  widgets: [{
       name: "netlify",
       options: {
         title: "Website Deployments",
-        sites: [
-          {
+        sites: [{
             title: "mmlinedancing.com",
             apiId: "f3f9e63f-3721-43f0-b54a-b3dd6de6628d",
             buildHookId: "5f5eee50a9ea4dd836e47dfe",
@@ -24,7 +22,12 @@ export default {
       name: "project-info",
     },
     {
-      name: "project-users",
-    },
+      name: 'notes',
+      layout: {
+        width: 'small',
+        height: 'auto'
+      }
+    }
+
   ],
 }

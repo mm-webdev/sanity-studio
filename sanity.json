@@ -26,7 +26,8 @@
     "@sanity/color-input",
     "nyancat-spinner",
     "@sanity/dashboard",
-    "dashboard-widget-netlify"
+    "dashboard-widget-netlify",
+    "dashboard-widget-notes"
   ],
   "api": {
     "projectId": "u97bco11",
