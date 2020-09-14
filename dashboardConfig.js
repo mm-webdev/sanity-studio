@@ -1,9 +1,15 @@
 export default {
-  widgets: [{
+  widgets: [
+    {
       name: "netlify",
+      layout: {
+        width: "auto",
+        height: "auto"
+      },
       options: {
         title: "Website Deployments",
-        sites: [{
+        sites: [
+          {
             title: "mmlinedancing.com",
             apiId: "f3f9e63f-3721-43f0-b54a-b3dd6de6628d",
             buildHookId: "5f5eee50a9ea4dd836e47dfe",
@@ -18,16 +24,22 @@ export default {
         ],
       },
     },
-    {
-      name: "project-info",
+    { 
+      name: "document-list",
+      options: {
+        title: 'Last items added/edited',
+        order: '_updatedAt desc',
+        limit: 6
+      },
+      layout: {
+        width: "medium",
+      }
     },
     {
-      name: 'notes',
+      name: "padlet",
       layout: {
-        width: 'small',
-        height: 'auto'
-      }
-    }
-
+        width: "large",
+      },
+    },
   ],
-}
+};

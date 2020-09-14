@@ -28,7 +28,8 @@
     "@sanity/dashboard",
     "dashboard-widget-netlify",
     "dashboard-widget-notes",
-    "dashboard-padlet-widget"
+    "dashboard-padlet-widget",
+    "dashboard-widget-document-list"
   ],
   "api": {
     "projectId": "u97bco11",
