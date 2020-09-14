@@ -27,7 +27,8 @@
     "nyancat-spinner",
     "@sanity/dashboard",
     "dashboard-widget-netlify",
-    "dashboard-widget-notes"
+    "dashboard-widget-notes",
+    "dashboard-padlet-widget"
   ],
   "api": {
     "projectId": "u97bco11",
