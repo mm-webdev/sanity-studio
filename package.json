@@ -24,6 +24,7 @@
     "@sanity/color-input": "^1.150.1",
     "@sanity/components": "^1.150.5",
     "@sanity/core": "^1.150.3",
+    "@sanity/dashboard": "^1.150.7",
     "@sanity/default-layout": "^1.150.5",
     "@sanity/default-login": "^1.150.1",
     "@sanity/desk-tool": "^1.150.5",
@@ -37,6 +38,7 @@
     "react": "^16.2",
     "react-dom": "^16.2",
     "react-icons": "^3.11.0",
+    "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
     "sanity-plugin-nyancat-spinner": "^1.0.0"
   },
   "devDependencies": {
