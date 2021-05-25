@@ -31,15 +31,6 @@ export default {
       ],
     },
     {
-      title: "Level",
-      name: "level",
-      type: "string",
-      options: {
-        list: ["Beginner", "Intermediate", "Advanced"],
-      },
-      validation: Rule => Rule.required(),
-    },
-    {
       title: "Location",
       name: "location",
       type: "string",
@@ -59,14 +50,12 @@ export default {
   ],
   preview: {
     select: {
-      title: "title",
-      level: "level",
+      title: "title"
     },
     prepare(selection) {
-      const { title, level } = selection
+      const { title } = selection
       return {
-        title: title,
-        subtitle: `Level: ${level}`,
+        title: title
       }
     },
   },

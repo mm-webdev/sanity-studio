@@ -29,7 +29,8 @@
     "dashboard-widget-netlify",
     "dashboard-widget-notes",
     "dashboard-padlet-widget",
-    "dashboard-widget-document-list"
+    "dashboard-widget-document-list",
+    "leaflet-input"
   ],
   "api": {
     "projectId": "u97bco11",
@@ -38,7 +39,7 @@
   "env": {
     "development": {
       "api": {
-        "dataset": "dev"
+        "dataset": "live"
       },
       "plugins": [
         "@sanity/vision"
