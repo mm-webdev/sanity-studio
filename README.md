@@ -1,9 +1,5 @@
-# Sanity Clean Content Studio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a307a69a-281d-47e4-b227-f8cd7d1f870b/deploy-status)](https://app.netlify.com/sites/admin-mmlinedancing/deploys)
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+# admin.mmlinedancing.com
 
-Now you can do the following things:
-
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+Deployed by netlify.com
